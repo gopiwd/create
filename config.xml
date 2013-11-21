@@ -14,8 +14,20 @@
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.SplashScreen" />
         <param name="ios-package" value="CDVSplashScreen" />
-    </feature>        
+    </feature>    
+	    
+<feature name="File">
+    <param name="android-package" value="org.apache.cordova.FileUtils" />
+</feature>
 
+
+<feature name="File">
+    <param name="android-package" value="org.apache.cordova.FileUtils" />
+</feature>
+
+<feature name="FileTransfer">
+    <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+</feature>
     <!--feature name="Geolocation">
       <param name="android-package" value="org.apache.cordova.GeoBroker" />
     </feature-->
