@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.wiredelta.ddl" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>create</name>
+    <name>DDL</name>
     <description>
-        create App
+        DDL App
     </description>
     <author email="contact@wiredelta.com" href="http://wiredelta.com/">
         WireDelta
@@ -14,12 +14,7 @@
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.SplashScreen" />
         <param name="ios-package" value="CDVSplashScreen" />
-    </feature>    
-	    
-<feature name="File">
-    <param name="android-package" value="org.apache.cordova.FileUtils" />
-</feature>
-
+    </feature>        
 
 <feature name="File">
     <param name="android-package" value="org.apache.cordova.FileUtils" />
@@ -32,6 +27,7 @@
 <feature name="File">
     <param name="ios-package" value="CDVFile" />
 </feature>
+
 <feature name="FileTransfer">
     <param name="ios-package" value="CDVFileTransfer" />
 </feature>
